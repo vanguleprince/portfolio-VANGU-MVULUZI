@@ -1,7 +1,146 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    padding: 1%;
+    justify-content: center;
+}
+
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.parents img {
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%
+}
+
+.content h1 {
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+}
+
+.content p {
+    font-size:18px;
+    margin:20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.buttons {
+    padding: 25px 20px;
+}
+
+.buttons.cv {
+    background-color: brown;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+
+div .profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.content {
+    display flex: ;: 500px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 50%;
+    color: rgb(239, 224, 224);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blue {
+    background-color: blue;
+    padding: 50px;
+}
+
+.yellow {
+    background-color: yellow;
+    padding: 50px;
+}
+
+.red {
+    background-color: brown;
+    padding: 50px;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.parents {
     display: flex;
 }
 
-li{
-    color: blue;
+header h1 {
+    font-size:3em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+}
+
+footer p{
+    margin: 0%;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 14px;
+}
+
+.mes-jambes a{
+    width: 2px;
+    height: 100px
 }
